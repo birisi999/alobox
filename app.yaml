@@ -1,12 +1,12 @@
-application: your-app-id
+application: eco-precept-91814
 version: 1
 runtime: python27
 api_version: 1
-threadsafe: true
+threadsafe: yes
 
 handlers:
-- url: /.*
-  script: guestbook.application
+- url: .*
+  script: main.bottle
 
 # [START libraries]
 libraries:
